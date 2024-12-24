@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(227, 68%, 88%);
+  position: relative;
+}
+
+.qr-code {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 25rem;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  background-color: white;
+}
+
+.qr-code img {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  object-fit: cover;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+}
+
+.qr-code span {
+  position: absolute;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  bottom: 10rem;
+}
+
+.qr-code p {
+  position: absolute;
+  bottom: 8rem;
+}
